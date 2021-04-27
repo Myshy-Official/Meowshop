@@ -1,0 +1,113 @@
+﻿{
+    "storeContent": [
+        {
+            "info": {
+                "title": "Captain Toad : Treasure Tracker",
+                "author": "Nintendo",
+                "description": "Captain Toad Treasure Tracker",
+                "category": ["game"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "Added the 2021-04-26"
+                "version": "Can be updated only from E-Shop"
+            },
+            "Captain Toad Treasure Tracker EUR.cia": [
+                {
+                    "file": "https://www.dropbox.com/s/8zuo5y0f0nipp6x/Captain%20Toad%20-%20Treasure%20Tracker-Revo3DS.cia?dl=1",
+                    "message": "Downloading Captain Toad Treasure Tracker EUR.cia...",
+                    "output": "sdmc:/CTTT.cia",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/CTTT.cia",
+                    "message": "Installing Captain Toad Treasure Tracker EUR.cia...",
+                    "type": "installCia"
+                },
+                {
+                    "file": "sdmc:/CTTT.cia",
+                    "message": "Deleting Captain Toad Treasure Tracker EUR.cia.",
+                    "type": "deleteFile"
+                },
+        {
+            "info": {
+                "title": "Youtube",
+                "author": "Google",
+                "description": "Yay Youtube !",
+                "category": ["App"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "Added the 2021-04-27"
+                "version": "idk"
+            },
+            "Youtube EUR.cia": [
+                {
+                    "file":"https://archive.org/download/3ds-cia-eshop/0012%20-%20YouTube%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CPt%2CRu%29%20%28eShop%29.rar",
+                    "message": "Downloading Youtube EUR.rar...",
+                    "output": "sdmc:/ytb.rar",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/ytb.rar",
+                    "input": "0012 - YouTube (Europe) (En,Fr,De,Es,It,Pt,Ru) (eShop).cia",
+                    "output": "sdmc:/ytb.cia/
+                    "message": "Extracting ytb.rar...",
+                    "type": "extractFile"
+                },
+                {
+                    "file": "sdmc:/ytb.cia",
+                    "message": "Installing ytb.cia.",
+                    "type": "installCia"
+                },
+                {
+                    "file": "sdmc:/ytb.cia",
+                    "message": "Deleting ytb.cia.",
+                    "type": "deleteFile"
+                },
+                    "file": "sdmc:/ytb.rar",
+                    "message": "Deleting ytb.rar.",
+                    "type": "deleteFile"
+                },
+        {
+            "info": {
+                "title": "VVVVVV",
+                "author": "idk",
+                "description": "idk",
+                "category": ["game"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "Added the 2021-04-27"
+                "version": "idk"
+            },
+            "VVVVVV EUR.cia": [
+                {
+                    "file":"https://archive.org/download/3ds-cia-eshop/0076%20-%20VVVVVV%20%28Europe%29%20%28Rev%201%29%20%28eShop%29.rar/0076%20-%20VVVVVV%20%28Europe%29%20%28Rev%201%29%20%28eShop%29.cia",
+                    "message": "Downloading VVVVVV EUR.cia...",
+                    "output": "sdmc:/VVVVVV.cia",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/VVVVVV.cia",
+                    "message": "VVVVVV EUR.cia...",
+                    "type": "installCia"
+                },
+                {
+                    "file": "sdmc:/VVVVVV.cia",
+                    "message": "VVVVVV EUR.cia.",
+                    "type": "deleteFile"
+                },
+            ]
+        }
+    ],
+    "storeInfo": {
+        "title": "New Freeshop",
+        "author": "Myshy",
+        "description": "Some games.",
+        "file": "newfreeshop_test1.unistore",
+        "revision": 0,
+        "version": 3
+    }
+}
+
