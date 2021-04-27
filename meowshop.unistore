@@ -97,7 +97,7 @@
                     "file": "sdmc:/VVVVVV.cia",
                     "message": "VVVVVV EUR.cia.",
                     "type": "deleteFile"
-                },
+                }
             ]
         }
     ],
